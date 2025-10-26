@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "alpaca_data_zh_51k",
+  "dataset_size": 15946384,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lyuricky/alpaca_data_zh_51k@6c074206e51c8766144a32b3f112578fe07235c1/alpaca_data_zh_51k.json": {
+      "num_bytes": 19067300,
+      "checksum": null
+    }
+  },
+  "download_size": 19067300,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 35013684,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 15946384,
+      "num_examples": 51461,
+      "dataset_name": "alpaca_data_zh_51k"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
